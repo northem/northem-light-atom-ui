@@ -1,9 +1,13 @@
 Northem Light - Atom UI
 =======================
 
-## 0.3.0 (2016-04-09) - `apm` package reinitialization
+## 0.4.0 (2016-04-09) - `apm` package reinitialization
 The project repository has been reinitialized for a clean migration to [gitflow](http://nvie.com/posts/a-successful-git-branching-model).  
 This is only relevant for the git history and does **NOT** impact the source code!
+
+## 0.3.0 (2016-02-08)
+### Bug Fixes
+  - Fixed all file modes/permissions (linux *umask*)
 
 ## 0.2.1 (2015-10-01)
 ### Bug Fixes
