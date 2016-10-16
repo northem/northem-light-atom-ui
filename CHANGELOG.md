@@ -1,6 +1,10 @@
 Northem Light - Atom UI
 =======================
 
+## 0.4.1 (2016-10-16)
+### Bug Fixes
+  - Fixed the box-shadow of all panels (command palette, fuzzy finder ...) to cover the whole workspace again (@edwardloveall, #1, PR #2, 6d25d0a8)
+
 ## 0.4.0 (2016-04-09) - `apm` package reinitialization
 The project repository has been reinitialized for a clean migration to [gitflow](http://nvie.com/posts/a-successful-git-branching-model).  
 This is only relevant for the git history and does **NOT** impact the source code!
