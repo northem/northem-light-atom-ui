@@ -131,6 +131,14 @@ copyright  Copyright (C) 2016                                       +
     transform: scale(1);
     opacity: 1;
   }
+
+  .placeholder {
+    height: @tab-height / 2;
+
+    &:after {
+      top: @tab-height / 2;
+    }
+  }
 }
 
 .platform-darwin {
