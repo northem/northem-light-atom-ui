@@ -4,7 +4,8 @@
 
 ---
 
-# 2.0.0 (2016-11-10)
+# 2.0.0
+*2016-11-10*
 **The whole project has been cleaned up and rewritten to adapt the codebase of the [Nord Atom UI](https://github.com/arcticicestudio/nord-atom-ui) project!**
 *This closes the milestone [Version 2.0.0](https://github.com/arcticicestudio/northem-light-atom-ui/milestone/1) and the associated backlog ticket #3.*
 
@@ -24,38 +25,45 @@ All previous supported packages have been migrated to the new codebase and packa
 ### Documentation
 All project documentations adapted the new project setup and styles and new branding assets have been added. (@arcticicestudio, #5, a5070368)
 
-# 0.4.1 (2016-10-16)
+# 0.4.1
+*2016-10-16*
 ## Bug Fixes
-  - Fixed the box-shadow of all panels (command palette, fuzzy finder ...) to cover the whole workspace again (@edwardloveall, #1, PR #2, 6d25d0a8)
+❯ Fixed the box-shadow of all panels (command palette, fuzzy finder ...) to cover the whole workspace again (@edwardloveall, #1, PR #2, 6d25d0a8)
 
-# 0.4.0 (2016-04-09)
+# 0.4.0
+*2016-04-09*
 The project repository has been reinitialized for a clean migration to [gitflow](http://nvie.com/posts/a-successful-git-branching-model).  
 This is only relevant for the git history and does **NOT** impact the source code!
 
-# 0.3.0 (2016-02-08)
+# 0.3.0
+*2016-02-08*
 ## Bug Fixes
-  - Fixed all file modes/permissions (linux *umask*)
+❯ Fixed all file modes/permissions (linux *umask*)
 
-# 0.2.1 (2015-10-01)
+# 0.2.1
+*2015-10-01*
 ## Bug Fixes
 ### Package Support
-  - Fixed a crash on theme load caused by a malformed color variable name
+❯ Fixed a crash on theme load caused by a malformed color variable name
 
-# 0.2.0 (2015-10-01)
+# 0.2.0
+*2015-10-01*
 ## Improvements
 ### Package Support
-  - Customized the [autocomplete-plus](https://atom.io/packages/autocomplete-plus) popover window colors and icons
+❯ Customized the [autocomplete-plus](https://atom.io/packages/autocomplete-plus) popover window colors and icons
 
 ## Bug Fixes
 ### Package Support
-  - Fixed description font size of the [autocomplete-plus](https://atom.io/packages/autocomplete-plus) popover window
+❯ Fixed description font size of the [autocomplete-plus](https://atom.io/packages/autocomplete-plus) popover window
 
 ## Refactoring
 ### Package Support
-  - Dropped support for the [atom-html-preview](https://atom.io/packages/atom-html-preview) package
+❯ Dropped support for the [atom-html-preview](https://atom.io/packages/atom-html-preview) package
 
-# 0.1.0 (2016-04-19)
+# 0.1.0
+*2016-04-19*
 **Project Reconstruction**
 
-# 0.0.0 (2016-04-09)
+# 0.0.0
+*2016-04-09*
 **Repository Reinitialization**
