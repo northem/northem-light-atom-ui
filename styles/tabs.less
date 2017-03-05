@@ -5,7 +5,7 @@ project    northem-light-atom-ui                                    +
 repository https://github.com/arcticicestudio/northem-light-atom-ui +
 author     Arctic Ice Studio                                        +
 email      development@arcticicestudio.com                          +
-copyright  Copyright (C) 2016                                       +
+copyright  Copyright (C) 2017                                       +
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 */
 .tab-bar {
@@ -62,6 +62,10 @@ copyright  Copyright (C) 2016                                       +
     color: @text-color-selected;
     background-color: @tab-background-color-active;
     width: 100%;
+
+    &:only-child {
+      background-color: @base-background-color;
+    }
 
     &.title {
       color: @text-color-selected;
@@ -130,6 +134,14 @@ copyright  Copyright (C) 2016                                       +
   .tab:hover .close-icon {
     transform: scale(1);
     opacity: 1;
+  }
+
+  .placeholder {
+    height: @tab-height / 2;
+
+    &:after {
+      top: @tab-height / 2;
+    }
   }
 }
 

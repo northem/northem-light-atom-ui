@@ -1,18 +1,30 @@
 /*
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Community Package Support: script                        +
+title      Community Package Support: tool-bar                      +
 project    northem-light-atom-ui                                    +
 repository https://github.com/arcticicestudio/northem-light-atom-ui +
 author     Arctic Ice Studio                                        +
 email      development@arcticicestudio.com                          +
 copyright  Copyright (C) 2017                                       +
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 [References]
 Atom Packages
-  (https://atom.io/packages/script)
+  (https://atom.io/packages/tool-bar)
 */
-.script-view {
-  pre {
-    border: 0;
+.tool-bar {
+  background-color: @base-background-color;
+  border: none;
+
+  button.tool-bar-btn {
+    background-color: @base-background-color;
+    background-image: none;
+    border-color: @base-background-color;
+  }
+
+  hr.tool-bar-spacer {
+    -webkit-mask-image: none !important;
+    border-top: 1px solid @tool-bar-spacer-border-color !important;
+    margin: 2px 5px !important;
   }
 }
