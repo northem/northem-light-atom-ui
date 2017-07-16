@@ -4,6 +4,19 @@
 
 ---
 
+# 2.1.1
+<details>
+  <summary>Version Details</summary>
+  <p>
+    Release Date: 2017-07-16<br>
+    <a href="https://github.com/arcticicestudio/northem-light-atom-ui/milestone/4">Milestone</a><br>
+    <a href="https://github.com/arcticicestudio/northem-light-atom-ui/projects/5">Project Board</a>
+  </p>
+</details>
+
+## Bug Fixes
+❯ Fixed a missing LESSCSS variable prefix character (`@`) causing an exception for all packages that make use of the UI theme core variable. (#20 PR #21, @kgrossjo)
+
 # 2.1.0
 *2017-03-05*
 **Please note that the minimal version for this theme is now >=1.13.0 due to the Atom theme API change!**
